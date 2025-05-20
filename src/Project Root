@@ -1,0 +1,17 @@
+Project Root
+│
+├── output/                     # Output folder for all generated data and plots
+│   ├── firing_data.csv         # CSV of neuron firing events
+│   ├── firing_raster.png       # Raster plot image
+│   ├── activity_over_time.png  # Plot of neuron activity over time
+│   ├── weight_heatmap.png      # Synaptic weight matrix heatmap
+│   ├── network_graph.png       # NetworkX connectivity graph image
+│   ├── pca_firing_patterns.png # PCA scatter plot image
+│   └── interactive_firing_plot.html  # Interactive Plotly HTML visualization
+│
+├── src/                        # Source code folder
+│   ├── neuron.py               # Neuron class: defines neuron properties & behavior
+│   ├── brain.py                # Brain class: network of neurons, synaptic weights, simulation logic
+│   └── simulate.py             # Main script: runs simulation, saves data, generates all plots
+│
+└── README.md                   # (Optional) Documentation and instructions
